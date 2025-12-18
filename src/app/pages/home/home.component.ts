@@ -18,19 +18,19 @@ import { RouterLink } from '@angular/router';
       </div>
       <div class="hero-content">
         <h1 class="hero-title">
-          <span class="gradient-text">Masa Depan Teknologi</span><br />
+          <span class="gradient-text">Future Technology</span><br />
           <span>AI & IoT</span>
         </h1>
         <p class="hero-subtitle">
-          Menghubungkan industri dengan teknologi cerdas untuk menciptakan solusi masa depan
+          Connecting industries with smart technology to create future solutions
         </p>
-        <a routerLink="/services" class="cta-button">Jelajahi Layanan</a>
+        <a routerLink="/services" class="cta-button">Explore Services</a>
       </div>
     </section>
 
     <section class="features" id="services">
       <div class="container">
-        <h2 class="section-title">Layanan Kami</h2>
+        <h2 class="section-title">Our Services</h2>
         <div class="features-grid">
           <div class="feature-card">
             <div class="feature-icon">
@@ -41,7 +41,7 @@ import { RouterLink } from '@angular/router';
               </svg>
             </div>
             <h3>Artificial Intelligence</h3>
-            <p>Solusi AI terdepan untuk otomatisasi dan pengambilan keputusan yang cerdas</p>
+            <p>Leading AI solutions for automation and intelligent decision-making</p>
           </div>
           <div class="feature-card">
             <div class="feature-icon">
@@ -51,7 +51,7 @@ import { RouterLink } from '@angular/router';
               </svg>
             </div>
             <h3>Internet of Things</h3>
-            <p>Menghubungkan perangkat dengan jaringan untuk efisiensi maksimal</p>
+            <p>Connecting devices with networks for maximum efficiency</p>
           </div>
           <div class="feature-card">
             <div class="feature-icon">
@@ -61,7 +61,7 @@ import { RouterLink } from '@angular/router';
               </svg>
             </div>
             <h3>Industrial Automation</h3>
-            <p>Transformasi digital untuk industri yang lebih efisien dan produktif</p>
+            <p>Digital transformation for more efficient and productive industries</p>
           </div>
         </div>
       </div>
@@ -72,19 +72,19 @@ import { RouterLink } from '@angular/router';
         <div class="stats-grid">
           <div class="stat-item">
             <div class="stat-number">500+</div>
-            <div class="stat-label">Proyek Selesai</div>
+            <div class="stat-label">Completed Projects</div>
           </div>
           <div class="stat-item">
             <div class="stat-number">200+</div>
-            <div class="stat-label">Klien Puas</div>
+            <div class="stat-label">Satisfied Clients</div>
           </div>
           <div class="stat-item">
             <div class="stat-number">15+</div>
-            <div class="stat-label">Tahun Pengalaman</div>
+            <div class="stat-label">Years of Experience</div>
           </div>
           <div class="stat-item">
             <div class="stat-number">50+</div>
-            <div class="stat-label">Tim Ahli</div>
+            <div class="stat-label">Expert Team</div>
           </div>
         </div>
       </div>

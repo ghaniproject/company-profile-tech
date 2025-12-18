@@ -10,7 +10,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(10, 10, 15, 0.95);
+  background: rgba(17, 17, 17, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 1000;
@@ -37,11 +37,11 @@
 }
 
 .logo-text {
-  color: white;
+  color: rgb(251, 251, 255);
 }
 
 .logo-highlight {
-  background: linear-gradient(135deg, #00d4ff 0%, #090979 100%);
+  background: rgb(255, 255, 255);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -72,7 +72,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(135deg, #00d4ff 0%, #090979 100%);
+  background: white;
   transition: width 0.3s ease;
 }
 

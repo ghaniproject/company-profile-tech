@@ -9,8 +9,8 @@ import { FormsModule } from '@angular/forms';
     template: `
     <section class="contact-hero">
       <div class="container">
-        <h1 class="page-title">Hubungi Kami</h1>
-        <p class="page-subtitle">Mari diskusikan bagaimana kami dapat membantu bisnis Anda</p>
+        <h1 class="page-title">Contact Us</h1>
+        <p class="page-subtitle">Let's discuss how we can help your business</p>
       </div>
     </section>
 
@@ -18,10 +18,10 @@ import { FormsModule } from '@angular/forms';
       <div class="container">
         <div class="contact-grid">
           <div class="contact-info">
-            <h2>Informasi Kontak</h2>
+            <h2>Contact Information</h2>
             <p>
-              Tim kami siap membantu Anda dengan solusi teknologi terbaik. 
-              Jangan ragu untuk menghubungi kami.
+              Our team is ready to help you with the best technology solutions. 
+              Feel free to contact us.
             </p>
 
             <div class="info-item">
@@ -32,8 +32,8 @@ import { FormsModule } from '@angular/forms';
                 </svg>
               </div>
               <div>
-                <h3>Alamat</h3>
-                <p>Jl. Teknologi No. 123<br />Jakarta, Indonesia 12345</p>
+                <h3>Address</h3>
+                <p>123 Technology Street<br />City, Country 12345</p>
               </div>
             </div>
 
@@ -44,8 +44,8 @@ import { FormsModule } from '@angular/forms';
                 </svg>
               </div>
               <div>
-                <h3>Telepon</h3>
-                <p>+62 21 1234 5678</p>
+                <h3>Phone</h3>
+                <p>+123 456 7890</p>
               </div>
             </div>
 
@@ -58,7 +58,7 @@ import { FormsModule } from '@angular/forms';
               </div>
               <div>
                 <h3>Email</h3>
-                <p>info@companytech.com</p>
+                <p>info@techsolutions.com</p>
               </div>
             </div>
 
@@ -84,7 +84,7 @@ import { FormsModule } from '@angular/forms';
           <div class="contact-form">
             <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
               <div class="form-group">
-                <label for="name">Nama</label>
+                <label for="name">Name</label>
                 <input 
                   type="text" 
                   id="name" 
@@ -94,7 +94,7 @@ import { FormsModule } from '@angular/forms';
                 />
               </div>
               <div class="form-group">
-                <label for="email">Email</label>
+                <label for="email">E-mail</label>
                 <input 
                   type="email" 
                   id="email" 
@@ -104,7 +104,7 @@ import { FormsModule } from '@angular/forms';
                 />
               </div>
               <div class="form-group">
-                <label for="phone">Telepon</label>
+                <label for="phone">Phone</label>
                 <input 
                   type="tel" 
                   id="phone" 
@@ -113,7 +113,7 @@ import { FormsModule } from '@angular/forms';
                 />
               </div>
               <div class="form-group">
-                <label for="subject">Subjek</label>
+                <label for="subject">Subject</label>
                 <input 
                   type="text" 
                   id="subject" 
@@ -123,7 +123,7 @@ import { FormsModule } from '@angular/forms';
                 />
               </div>
               <div class="form-group">
-                <label for="message">Pesan</label>
+                <label for="message">Message</label>
                 <textarea 
                   id="message" 
                   name="message" 
@@ -132,7 +132,7 @@ import { FormsModule } from '@angular/forms';
                   required
                 ></textarea>
               </div>
-              <button type="submit" class="submit-button">Kirim Pesan</button>
+              <button type="submit" class="submit-button">Send Message</button>
             </form>
           </div>
         </div>
@@ -301,8 +301,8 @@ import { FormsModule } from '@angular/forms';
     .submit-button {
       width: 100%;
       padding: 1rem;
-      background: linear-gradient(135deg, #00d4ff 0%, #090979 100%);
-      color: white;
+      background: white;
+      color: black;
       border: none;
       border-radius: 10px;
       font-size: 1.1rem;
@@ -334,7 +334,7 @@ export class ContactComponent {
 
     onSubmit() {
         console.log('Form submitted:', this.formData);
-        alert('Terima kasih! Pesan Anda telah dikirim.');
+        alert('Thank you! Your message has been sent.');
         this.formData = {
             name: '',
             email: '',

@@ -6,10 +6,10 @@
       </a>
     </div>
     <ul class="nav-menu" [class.active]="mobileMenuOpen">
-      <li><a (click)="navigate('', $event)" [class.active]="isActive('')">Beranda</a></li>
-      <li><a (click)="navigate('about', $event)" [class.active]="isActive('about')">Tentang</a></li>
-      <li><a (click)="navigate('services', $event)" [class.active]="isActive('services')">Layanan</a></li>
-      <li><a (click)="navigate('contact', $event)" [class.active]="isActive('contact')">Kontak</a></li>
+      <li><a (click)="navigate('', $event)" [class.active]="isActive('')">Home</a></li>
+      <li><a (click)="navigate('about', $event)" [class.active]="isActive('about')">About</a></li>
+      <li><a (click)="navigate('services', $event)" [class.active]="isActive('services')">Services</a></li>
+      <li><a (click)="navigate('contact', $event)" [class.active]="isActive('contact')">Contact</a></li>
     </ul>
     <button class="mobile-menu-toggle" (click)="toggleMobileMenu()" [class.active]="mobileMenuOpen">
       <span></span>

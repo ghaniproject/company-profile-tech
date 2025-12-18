@@ -8,8 +8,8 @@ import { CommonModule } from '@angular/common';
     template: `
     <section class="about-hero">
       <div class="container">
-        <h1 class="page-title">Tentang Kami</h1>
-        <p class="page-subtitle">Mengubah visi menjadi kenyataan melalui teknologi cerdas</p>
+        <h1 class="page-title">About Us</h1>
+        <p class="page-subtitle">Transforming vision into reality through smart technology</p>
       </div>
     </section>
 
@@ -17,16 +17,16 @@ import { CommonModule } from '@angular/common';
       <div class="container">
         <div class="about-grid">
           <div class="about-text">
-            <h2>Visi Kami</h2>
+            <h2>Our Vision</h2>
             <p>
-              Menjadi pemimpin dalam revolusi industri 4.0 dengan mengintegrasikan 
-              teknologi Artificial Intelligence dan Internet of Things untuk menciptakan 
-              solusi yang transformatif bagi bisnis dan masyarakat.
+              Become a leader in the 4.0 industrial revolution by integrating 
+              Artificial Intelligence and Internet of Things technologies to create 
+              transformative solutions for businesses and society.
             </p>
             <p>
-              Kami percaya bahwa masa depan industri terletak pada kolaborasi antara 
-              manusia dan mesin yang cerdas, menciptakan ekosistem yang lebih efisien, 
-              berkelanjutan, dan inovatif.
+              We believe that the future of industry lies in the collaboration between 
+              humans and intelligent machines, creating an ecosystem that is more efficient, 
+              sustainable, and innovative.
             </p>
           </div>
           <div class="about-image">
@@ -42,27 +42,27 @@ import { CommonModule } from '@angular/common';
 
     <section class="values">
       <div class="container">
-        <h2 class="section-title">Nilai-Nilai Kami</h2>
+        <h2 class="section-title">Our Values</h2>
         <div class="values-grid">
           <div class="value-card">
             <div class="value-icon">🚀</div>
             <h3>Inovasi</h3>
-            <p>Terus berinovasi untuk memberikan solusi terdepan</p>
+            <p>Continuously innovate to provide leading solutions</p>
           </div>
           <div class="value-card">
             <div class="value-icon">🎯</div>
             <h3>Presisi</h3>
-            <p>Akurasi dan ketelitian dalam setiap proyek</p>
+            <p>Accuracy and precision in every project</p>
           </div>
           <div class="value-card">
             <div class="value-icon">🤝</div>
             <h3>Kolaborasi</h3>
-            <p>Bekerja sama untuk mencapai hasil terbaik</p>
+            <p>Working together to achieve the best results</p>
           </div>
           <div class="value-card">
             <div class="value-icon">⭐</div>
             <h3>Keunggulan</h3>
-            <p>Berkomitmen pada kualitas terbaik</p>
+            <p>Committing to the best quality</p>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ import { CommonModule } from '@angular/common';
 
     <section class="team">
       <div class="container">
-        <h2 class="section-title">Tim Ahli Kami</h2>
+        <h2 class="section-title">Our Expert Team</h2>
         <div class="team-grid">
           <div class="team-member">
             <img 
@@ -79,7 +79,7 @@ import { CommonModule } from '@angular/common';
               loading="lazy"
             />
             <h3>John Doe</h3>
-            <p>Chief Technology Officer</p>
+            <p>Chief Technology Officer (CTO)</p>
           </div>
           <div class="team-member">
             <img 

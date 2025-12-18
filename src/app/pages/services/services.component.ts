@@ -8,8 +8,8 @@ import { CommonModule } from '@angular/common';
     template: `
     <section class="services-hero">
       <div class="container">
-        <h1 class="page-title">Layanan Kami</h1>
-        <p class="page-subtitle">Solusi teknologi terdepan untuk transformasi digital</p>
+        <h1 class="page-title">Our Services</h1>
+        <p class="page-subtitle">Leading technology solutions for digital transformation</p>
       </div>
     </section>
 
@@ -27,9 +27,9 @@ import { CommonModule } from '@angular/common';
             <div class="service-content">
               <h2>Artificial Intelligence</h2>
               <p>
-                Kami menyediakan solusi AI yang mencakup machine learning, deep learning, 
-                computer vision, dan natural language processing untuk otomatisasi proses 
-                bisnis yang kompleks.
+                We provide AI solutions that cover machine learning, deep learning, 
+                computer vision, and natural language processing for complex business 
+                process automation.
               </p>
               <ul class="service-features">
                 <li>Machine Learning Models</li>
@@ -52,9 +52,9 @@ import { CommonModule } from '@angular/common';
             <div class="service-content">
               <h2>Internet of Things</h2>
               <p>
-                Implementasi IoT untuk menghubungkan perangkat, sensor, dan sistem 
-                dalam ekosistem terintegrasi yang memungkinkan pengumpulan data real-time 
-                dan kontrol otomatis.
+                Implementation of IoT to connect devices, sensors, and systems 
+                in an integrated ecosystem that allows real-time data collection and 
+                automatic control.
               </p>
               <ul class="service-features">
                 <li>Sensor Networks</li>
@@ -77,8 +77,8 @@ import { CommonModule } from '@angular/common';
             <div class="service-content">
               <h2>Industrial Automation</h2>
               <p>
-                Transformasi proses industri dengan sistem otomasi yang terintegrasi, 
-                meningkatkan efisiensi, produktivitas, dan mengurangi biaya operasional.
+                Industrial process transformation with integrated automation systems, 
+                increasing efficiency, productivity, and reducing operational costs.
               </p>
               <ul class="service-features">
                 <li>SCADA Systems</li>
@@ -95,27 +95,27 @@ import { CommonModule } from '@angular/common';
 
     <section class="process">
       <div class="container">
-        <h2 class="section-title">Proses Kerja Kami</h2>
+        <h2 class="section-title">Our Working Process</h2>
         <div class="process-steps">
           <div class="process-step">
             <div class="step-number">01</div>
-            <h3>Konsultasi</h3>
-            <p>Memahami kebutuhan dan tujuan bisnis Anda</p>
+            <h3>Consultation</h3>
+            <p>Understanding your business needs and goals</p>
           </div>
           <div class="process-step">
             <div class="step-number">02</div>
-            <h3>Perencanaan</h3>
-            <p>Mendesain solusi yang sesuai dengan kebutuhan</p>
+            <h3>Planning</h3>
+            <p>Designing solutions that meet your needs</p>
           </div>
           <div class="process-step">
             <div class="step-number">03</div>
-            <h3>Implementasi</h3>
-            <p>Mengembangkan dan menerapkan solusi</p>
+            <h3>Implementation</h3>
+            <p>Developing and implementing solutions</p>
           </div>
           <div class="process-step">
             <div class="step-number">04</div>
-            <h3>Optimasi</h3>
-            <p>Pemantauan dan peningkatan berkelanjutan</p>
+            <h3>Optimization</h3>
+            <p>Monitoring and continuous improvement</p>
           </div>
         </div>
       </div>
