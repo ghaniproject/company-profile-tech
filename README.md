@@ -1,21 +1,13 @@
 # Tech Solutions - Company Profile
 
-Website company profile modern dengan tema **Industri, Future, dan Teknologi** yang bergerak di bidang **AI & IoT**.
+Website company profile modern with theme **Industry, Future, dan Technology** engaged in the**AI & IoT**.
 
-## ✨ Fitur
-
-- 🎨 Desain modern dengan dark theme dan gradient biru/cyan
-- 🖼️ Gambar dari Unsplash untuk visual yang menarik
-- 🎭 Animasi fade-out/fade-in pada navigasi antar halaman
-- 📱 Responsive design untuk semua perangkat
-- 🚀 Built dengan Angular 21 (Standalone Components)
-
-## 🛠️ Teknologi
+## Tech
 
 - Angular 21
 - TypeScript
 - HTML5 & CSS3
-- Angular Router dengan lazy loading
+- Angular Router with lazy loading
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.3.
 
